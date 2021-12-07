@@ -153,6 +153,9 @@ symbol = " "
 [shlvl]
 symbol = " "
 
+[status]
+disabled = false
+
 [swift]
 symbol = "ﯣ "
 
