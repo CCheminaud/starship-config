@@ -70,6 +70,8 @@ $character"""
 disabled = true
 symbol = " "
 
+[cmd_duration]
+style = "bold red"
 
 [conda]
 symbol = " "
