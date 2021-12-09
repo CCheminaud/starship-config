@@ -97,7 +97,6 @@ symbol = " "
 symbol = " "
 
 [git_branch]
-# style = "purple"
 symbol = " "
 
 [git_commit]
@@ -105,7 +104,6 @@ format = "[ﰖ $hash$tag]($style) "
 only_detached = false
 tag_disabled = false
 tag_symbol = "  "
-# style = "green"
 
 [golang]
 symbol = " "
@@ -127,10 +125,6 @@ symbol = " "
 
 [nix_shell]
 symbol = " "
-
-[nodejs]
-# style = "green"
-# not_capable_style = "bold red"
 
 [package]
 symbol = " "
