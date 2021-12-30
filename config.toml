@@ -67,8 +67,7 @@ $shell\
 $character"""
 
 [aws]
-disabled = true
-symbol = " "
+symbol = " "
 
 [cmd_duration]
 style = "bold red"
@@ -95,6 +94,9 @@ symbol = " "
 
 [fill]
 symbol = " "
+
+[gcloud]
+symbol = " "
 
 [git_branch]
 symbol = " "
