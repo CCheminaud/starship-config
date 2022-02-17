@@ -50,7 +50,6 @@ $vagrant\
 $zig\
 $nix_shell\
 $conda\
-$memory_usage\
 $aws\
 $gcloud\
 $openstack\
@@ -62,6 +61,7 @@ $time\
 $line_break\
 $jobs\
 $battery\
+$memory_usage\
 $status\
 $shell\
 $character"""
@@ -132,7 +132,11 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
+disabled = false
+format = "[$symbol${ram}]($style) "
+style = "bold dimmed red"
 symbol = " "
+threshold = 80
 
 [nim]
 symbol = " "
